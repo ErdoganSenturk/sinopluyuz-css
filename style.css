@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color:white
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://seyler.ekstat.com/img/max/800/C/CymIir8aGaYAdLCZ-636777082402643254.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 10vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+h2{
+    cursor: pointer;
+}
+h2:hover, a:hover{
+    color: orange;
+}
+.inp1{
+    height: 2.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid orange;
+    background: transparent;
+    font-size: 16px;
+}
+.inp2{
+    height: 2.5rem;
+    background-color: orange;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mid{
+    width: 90vw;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    margin: 1rem 0;
+}
+span{
+    color: orange;
+}
+button{
+    margin: 1rem 0;
+    color: balck;
+    background-color: orange;
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 20px;
+}
+.left{
+    width: 50%;
+    text-align: justify;
+}
+.frm{
+    width: 16rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 15px;
+    height: 24rem;
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    width: 12rem;
+    margin: auto;
+    padding: 5px;
+}
+.email, .lgn, .pass{
+    width: 12rem;
+    align-items: center;
+    border-bottom: 1px solid orange;
+    height: 2.5rem;
+    
+    display: block;
+    margin: auto;
+    
+}
+.email, .pass{
+    margin-top: 1rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+.lgn{
+    background-color: orange;
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 1rem;
+}
+.kyt, .lgnw{
+    text-align: center;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.sosyal{
+    margin: auto;
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ion-icon{
+    font-size: 2rem;
+    transition: 0.5s;
+}
+ion-icon:hover{
+    color: orange;
+}
