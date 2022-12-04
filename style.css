@@ -30,9 +30,6 @@ a{
     text-decoration: none;
     transition: 0.5s;
 }
-h2{
-    cursor: pointer;
-}
 h2:hover, a:hover{
     color: orange;
 }
@@ -82,7 +79,27 @@ button{
     width: 16rem;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     border-radius: 15px;
-    height: 24rem;
+    height: 25rem;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    width: 16rem;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+.sinoplu{
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    width: 16rem;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 0;
 }
 h2{
     text-align: center;
@@ -92,13 +109,14 @@ h2{
     width: 12rem;
     margin: auto;
     padding: 5px;
+    cursor: pointer;
+    
 }
 .email, .lgn, .pass{
     width: 12rem;
     align-items: center;
     border-bottom: 1px solid orange;
     height: 2.5rem;
-    
     display: block;
     margin: auto;
     
